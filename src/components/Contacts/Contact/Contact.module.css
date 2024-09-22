@@ -1,0 +1,16 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactInfo .flex {
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.contactInfo .flex:last-child {
+    margin-bottom: 0;
+}

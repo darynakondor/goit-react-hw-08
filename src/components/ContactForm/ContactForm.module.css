@@ -1,0 +1,22 @@
+.form {
+    max-width: 400px;
+    border: 2px solid #7a7979;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.lbl {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.btnContainer {
+   text-align: center;
+}
+
+.errorMessage {
+    color: rgb(230, 45, 48);
+}

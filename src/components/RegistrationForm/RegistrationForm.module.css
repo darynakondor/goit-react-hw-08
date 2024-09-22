@@ -1,0 +1,16 @@
+.form, label {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    position: relative;
+}
+
+.error {
+    position: absolute;
+    bottom: -26px;
+    color: brown;
+}
